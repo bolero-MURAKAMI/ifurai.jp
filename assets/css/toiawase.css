@@ -1,0 +1,82 @@
+@charset "utf-8";
+
+
+
+/* content08 */
+#content08 {
+	float: left;
+	text-align: left;
+	background: url(../images/toiawase/img_content.gif) 0 100% no-repeat;
+}
+
+/* sidebar08 */
+#sidebar08 {
+	background: url(../images/toiawase/bg_sidebar.jpg) 0 0 no-repeat;
+	float: left;
+	width: 180px;
+	height: 400px;
+}
+#sidebar08 h2 {
+	height: 120px;
+}
+#sidebar08 ul {
+	float: left;
+	text-align: left;
+}
+#sidebar08 li {
+	width: 180px;
+	height: 40px;
+	line-height: 1.9;
+	font-size: 1px;
+}
+#sidebar08 a {
+	background: url(../images/toiawase/bg_sidebar.jpg) left top no-repeat;
+	display: block;
+	width: 180px;
+	height: 40px;
+	text-decoration: none;
+}
+#sidebar08 em {
+	display: none;
+}
+
+/* content08_sub01 */
+#content08_sub01 {
+	padding-bottom: 0;
+}
+
+/* content08_sub02 */
+#content08_sub02 {
+	padding-bottom: 0;
+}
+
+/* content08_sub03 */
+#content08_sub03 {
+	padding-bottom: 0;
+}
+
+/* content08_sub04 */
+#content08_sub04 {
+	padding-bottom: 0;
+}
+
+/* content08_sub05 */
+#content08_sub05 {
+	padding-bottom: 0;
+}
+
+
+
+/* mailFrame */
+.mailFrame {
+	border: 1px #CCCC99 solid;
+	width: 734px;
+	height: 480px;
+}
+
+/* bbsFrame */
+.bbsFrame {
+	border: 1px #CCCC99 solid;
+	width: 734px;
+	height: 1200px;
+}

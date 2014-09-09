@@ -1,0 +1,104 @@
+@charset "utf-8";
+
+
+
+/* content06 */
+#content06 {
+	float: left;
+	text-align: left;
+	background: url(../images/riyo/img_content.gif) 0 100% no-repeat;
+}
+
+/* sidebar06 */
+#sidebar06 {
+	background: url(../images/riyo/bg_sidebar.jpg) 0 0 no-repeat;
+	float: left;
+	width: 180px;
+	height: 400px;
+}
+#sidebar06 h2 {
+	height: 120px;
+}
+#sidebar06 ul {
+	float: left;
+	text-align: left;
+}
+#sidebar06 li {
+	width: 180px;
+	height: 40px;
+	line-height: 1.9;
+	font-size: 1px;
+}
+#sidebar06 a {
+	background: url(../images/riyo/bg_sidebar.jpg) left top no-repeat;
+	display: block;
+	width: 180px;
+	height: 40px;
+	text-decoration: none;
+}
+#sidebar06 em {
+	display: none;
+}
+
+/* content06_sub01 */
+#content06_sub01 {
+	padding-bottom: 0;
+}
+
+/* content06_sub02 */
+#content06_sub02 {
+	padding-bottom: 0;
+}
+
+/* content06_sub03 */
+#content06_sub03 {
+	padding-bottom: 0;
+}
+
+/* content06_sub04 */
+#content06_sub04 {
+	padding-bottom: 0;
+}
+
+/* content06_sub05 */
+#content06_sub05 {
+	padding-bottom: 0;
+}
+
+/* annaiData01 */
+#annaiData01 {
+	width: 100px;
+}
+/* annaiData02 */
+#annaiData02 {
+	width: 600px;
+}
+
+/* kanranData01 */
+.kanranData01 {
+	width: 200px;
+}
+/* kanranData02 */
+.kanranData02 {
+	width: 250px;
+}
+/* kanranData03 */
+.kanranData03 {
+	width: 250px;
+}
+
+/* accessData01 */
+.accessData01 {
+	width: 100px;
+}
+/* accessData02 */
+.accessData02 {
+	width: 600px;
+}
+
+/* gmapFrame */
+.gmapFrame {
+	border: 1px #CCCC99 solid;
+	width: 734px;
+	height: 555px;
+}

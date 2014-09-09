@@ -1,0 +1,86 @@
+@charset "utf-8";
+
+
+
+/* content04 */
+#content04 {
+	float: left;
+	text-align: left;
+	background: url(../images/kyoshitsu/img_content.gif) 0 100% no-repeat;
+}
+
+/* sidebar04 */
+#sidebar04 {
+	background: url(../images/kyoshitsu/bg_sidebar.jpg) 0 0 no-repeat;
+	float: left;
+	width: 180px;
+	height: 400px;
+}
+#sidebar04 h2 {
+	height: 120px;
+}
+#sidebar04 ul {
+	float: left;
+	text-align: left;
+}
+#sidebar04 li {
+	width: 180px;
+	height: 40px;
+	line-height: 1.9;
+	font-size: 1px;
+}
+#sidebar04 a {
+	background: url(../images/kyoshitsu/bg_sidebar.jpg) left top no-repeat;
+	display: block;
+	width: 180px;
+	height: 40px;
+	text-decoration: none;
+}
+#sidebar04 em {
+	display: none;
+}
+
+/* content04_sub01 */
+#content04_sub01 {
+	padding-bottom: 0;
+}
+
+/* content04_sub02 */
+#content04_sub02 {
+	padding-bottom: 0;
+}
+
+/* content04_sub03 */
+#content04_sub03 {
+	padding-bottom: 0;
+}
+
+/* content04_sub04 */
+#content04_sub04 {
+	padding-bottom: 0;
+}
+
+/* content04_sub05 */
+#content04_sub05 {
+	padding-bottom: 0;
+}
+
+
+
+/* kyoushitsuData01 */
+.kyoushitsuData01 {
+	width: 100px;
+}
+/* kyoushitsuData02 */
+.kyoushitsuData02 {
+	width: 600px;
+}
+
+/* ryoukinData01 */
+.ryoukinData01 {
+	width: 100px;
+}
+/* ryoukinData02 */
+.ryoukinData02 {
+	width: 150px;
+}

@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+
+
+/* content01 */
+#content01 {
+	float: left;
+	text-align: left;
+	background: url(../images/syokai/img_content.gif) 0 100% no-repeat;
+}
+
+/* sidebar01 */
+#sidebar01 {
+	background: url(../images/syokai/bg_sidebar.jpg) 0 0 no-repeat;
+	float: left;
+	width: 180px;
+	height: 400px;
+}
+#sidebar01 h2 {
+	height: 120px;
+}
+#sidebar01 ul {
+	float: left;
+	text-align: left;
+}
+#sidebar01 li {
+	width: 140px;
+	height: 40px;
+	line-height: 1.9;
+	font-size: 1px;
+}
+#sidebar01 a {
+	background: url(../images/syokai/bg_sidebar.jpg) left top no-repeat;
+	display: block;
+	width: 180px;
+	height: 40px;
+	text-decoration: none;
+}
+#sidebar01 em {
+	display: none;
+}
+
+/* content01_sub01 */
+#content01_sub01 {
+	padding-bottom: 0;
+}
+
+/* content01_sub02 */
+#content01_sub02 {
+	padding-bottom: 0;
+}
+
+/* content01_sub03 */
+#content01_sub03 {
+	padding-bottom: 0;
+}
+
+/* content01_sub04 */
+#content01_sub04 {
+	padding-bottom: 0;
+}
+
+/* content01_sub05 */
+#content01_sub05 {
+	padding-bottom: 0;
+}

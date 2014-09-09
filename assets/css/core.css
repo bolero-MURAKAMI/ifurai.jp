@@ -1,0 +1,479 @@
+@charset "utf-8";
+
+@import url(top.css);
+@import url(syokai.css);
+@import url(tenji.css);
+@import url(event.css);
+@import url(kyoshitsu.css);
+@import url(shop.css);
+@import url(riyo.css);
+@import url(links.css);
+@import url(toiawase.css);
+
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+img {
+	border: none;
+	font-size: 1px;
+	line-height: 0;
+}
+p {
+	color: #4E1600;
+	line-height: 1.4;
+	font-size: 10.5pt;
+}
+a {
+	color: #3A441A;
+}
+a:hover {
+	color: #46A748;
+}
+ul {
+	font-size: 11.5pt;
+	list-style-image: none;
+	list-style-position: outside;
+	list-style-type: none;
+	color: #4E1600;
+}
+ul li {
+	font-size: 10.5pt;
+}
+ul li a {
+	font-size: 11.5pt;
+}
+h1, h2 {
+	font-size: 1px;
+	line-height: 0;
+	text-indent: -10000em;
+}
+h3 {
+	line-height: 1.4;
+	text-align: center;
+	font-size: 16pt;
+	color: #3A441A;
+}
+h4 {
+	line-height: 1.4;
+	text-align: center;
+	font-size: 14pt;
+	color: #3A441A;
+}
+body {
+	text-align: center;
+	background: #666666 url(../images/common/bg_body.gif) 0 0 repeat-x;
+	font-family: 'メイリオ',Meiryo,sans-serif,Verdana,'ＭＳ Ｐゴシック','ヒラギノ丸ゴ Pro W4','Hiragino Maru Gothic Pro',Osaka;
+}
+
+
+
+/* container */
+#container {
+	width: 960px;
+	background: #FFFFFF;
+	margin: 0 auto;
+	text-align: left;
+}
+
+/* header */
+#header {
+	background: #DDDDDD;
+	text-align: left;
+}
+
+/* titlebar */
+#titlebar {
+	height: 200px;
+	background: url(../images/common/bg_titlebar.jpg) 0 0 no-repeat;
+}
+#titlebar h1 {
+	padding: 0 0 0 10px;
+}
+#titlebar h1 a {
+	display: block;
+	width: 330px;
+	height: 200px;
+}
+#titlebar h1 em {
+	display: none;
+}
+
+/* navibar */
+#navibar {
+	height: 60px;
+	margin: 0 auto;
+	padding: 0;
+	background: url(../images/common/bg_navibar.jpg) 0 0 no-repeat;
+}
+#navibar ul li {
+	display: block;
+	float: left;
+	height: 60px;
+	font-size: 1px;
+	line-height: 0;
+}
+#navibar a {
+	display: block;
+	float: none;
+	height: 60px;
+	text-decoration: none;
+	background: url(../images/common/bg_navibar.jpg) left top no-repeat;
+}
+#navibar em {
+	display: none;
+}
+
+/* navi01 */
+#navi01 a {
+	width: 120px;
+	background-position: 0px 0px;
+}
+#navi01 a:hover {
+	width: 120px;
+	background-position: 0px -60px;
+}
+#navi01_c a {
+	width: 120px;
+	background-position: 0px -60px;
+}
+
+/* navi02 */
+#navi02 a {
+	width: 120px;
+	background-position: -120px 0px;
+}
+#navi02 a:hover {
+	width: 120px;
+	background-position: -120px -60px;
+}
+#navi02_c a {
+	width: 120px;
+	background-position: -120px -60px;
+}
+
+/* navi03 */
+#navi03 a {
+	width: 120px;
+	background-position: -240px 0px;
+}
+#navi03 a:hover {
+	width: 120px;
+	background-position: -240px -60px;
+}
+#navi03_c a {
+	width: 120px;
+	background-position: -240px -60px;
+}
+
+/* navi04 */
+#navi04 a {
+	width: 120px;
+	background-position: -360px 0px;
+}
+#navi04 a:hover {
+	width: 120px;
+	background-position: -360px -60px;
+}
+#navi04_c a {
+	width: 120px;
+	background-position: -360px -60px;
+}
+
+/* navi05 */
+#navi05 a {
+	width: 120px;
+	background-position: -480px 0px;
+}
+#navi05 a:hover {
+	width: 120px;
+	background-position: -480px -60px;
+}
+#navi05_c a {
+	width: 120px;
+	background-position: -480px -60px;
+}
+
+/* navi06 */
+#navi06 a {
+	width: 120px;
+	background-position: -600px 0px;
+}
+#navi06 a:hover {
+	width: 120px;
+	background-position: -600px -60px;
+}
+#navi06_c a {
+	width: 120px;
+	background-position: -600px -60px;
+}
+
+/* navi07 */
+#navi07 a {
+	width: 120px;
+	background-position: -720px 0px;
+}
+#navi07 a:hover {
+	width: 120px;
+	background-position: -720px -60px;
+}
+#navi07_c a {
+	width: 120px;
+	background-position: -720px -60px;
+}
+
+/* navi08 */
+#navi08 a {
+	width: 120px;
+	background-position: -840px 0px;
+}
+#navi08 a:hover {
+	width: 120px;
+	background-position: -840px -60px;
+}
+#navi08_c a {
+	width: 120px;
+	background-position: -840px -60px;
+}
+
+/* side01 */
+#side01 a {
+	height: 40px;
+	background-position: 0px -120px;
+}
+#side01 a:hover {
+	height: 40px;
+	background-position: -180px -120px;
+}
+#side01_c a {
+	height: 40px;
+	background-position: -180px -120px;
+}
+
+/* side02 */
+#side02 a {
+	height: 40px;
+	background-position: 0px -160px;
+}
+#side02 a:hover {
+	height: 40px;
+	background-position: -180px -160px;
+}
+#side02_c a {
+	height: 40px;
+	background-position: -180px -160px;
+}
+
+/* side03 */
+#side03 a {
+	height: 40px;
+	background-position: 0px -200px;
+}
+#side03 a:hover {
+	height: 40px;
+	background-position: -180px -200px;
+}
+#side03_c a {
+	height: 40px;
+	background-position: -180px -200px;
+}
+
+/* side04 */
+#side04 a {
+	height: 40px;
+	background-position: 0px -240px;
+}
+#side04 a:hover {
+	height: 40px;
+	background-position: -180px -240px;
+}
+#side04_c a {
+	height: 40px;
+	background-position: -180px -240px;
+}
+
+/* side05 */
+#side05 a {
+	height: 40px;
+	background-position: 0px -280px;
+}
+#side05 a:hover {
+	height: 40px;
+	background-position: -180px -280px;
+}
+#side05_c a {
+	height: 40px;
+	background-position: -180px -280px;
+}
+
+/* sideReturnToTop */
+#sideReturnToTop a {
+	height: 40px;
+	background-position: 0px -320px;
+}
+#sideReturnToTop a:hover {
+	height: 40px;
+	background-position: -180px -320px;
+}
+
+/*contentMain*/
+#contentMain {
+	float: right;
+	width: 780px;
+	background: url(../images/common/bg_contents.gif) 0 0 no-repeat;
+}
+
+/* contentInner */
+#contentInner {
+	width: 740px;
+	margin: 0 20px 20px 20px;
+}
+
+/* footer */
+#footer {
+	height: 40px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background: #DDDDDD;
+} 
+#footer p {
+	text-align: center;
+}
+
+
+
+/* heading */
+.heading {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background: #CCCCCC url(../images/common/bg_heading.gif) 0 0 no-repeat;
+}
+
+/* heading2 */
+.heading2 {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 210px;
+	margin-right: 210px;
+	background: #99CCCC url(../images/common/bg_heading2.gif) 0 0 no-repeat;
+}
+
+/* infoTable */
+.infoTable {
+	width: 740px;
+	text-align: center;
+	border: 2px #CCCC99 solid;
+	background: #FFFFFF;
+	color: #4E1600;
+}
+.infoTable caption {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	line-height: 1.4;
+	font-size: 11.5pt;
+	background: #CCCC99 url(../images/common/bg_caption.gif) 0 0 no-repeat;
+}
+.infoTable tr {
+}
+.infoTable th {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	line-height: 1.4;
+	font-size: 10.5pt;
+	border: 2px #CCCC99 solid;
+}
+.infoTable td {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	line-height: 1.4;
+	font-size: 10.5pt;
+	border: 1px #CCCC99 solid;
+}
+
+/* infoCaption */
+.infoCaption {
+	font-size: 14pt;
+	font-weight: bold;
+}
+
+/* infoCaption2 */
+.infoCaption2 {
+	font-size: 11.5pt;
+	font-weight: bold;
+}
+
+/* infoText */
+.infoText {
+	font-size: 10.5pt;
+	text-align: center;
+}
+
+/* imgTable */
+.imgTable {
+	width: 740px;
+	text-align: center;
+	border: 2px #CCCC99 solid;
+	background: #FFFFFF;
+	color: #4E1600;
+}
+.imgTable caption {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	line-height: 1.4;
+	font-size: 11.5pt;
+	background: #CCCC99 url(../images/common/bg_caption.gif) 0 0 no-repeat;
+}
+.imgTable tr {
+}
+.imgTable th {
+	line-height: 1.4;
+	font-size: 10.5pt;
+}
+.imgTable td {
+	line-height: 1.4;
+	font-size: 10.5pt;
+}
+
+/* imgLeft */
+.imgLeft {
+	text-align: left;
+}
+
+/* imgRight */
+.imgRight {
+	text-align: right;
+}
+
+/* imgCenter */
+.imgCenter {
+	text-align: center;
+}
+
+/* no-border */
+.no-border {
+	border: 0 !important;
+}
+
+
+
+/* 再使用できる各種クラス */
+.fltrt { /* このクラスは、ページ上でフローティングエレメントを右側に配置するのに使用できます。プローティングエレメントは、ページ上でその横に配置されるエレメントの前に配置される必要があります。 */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* このクラスは、ページ上でフローティングエレメントを左側に配置するのに使用できます */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* このクラスは、div またはブレークエレメントに適用される必要があり、また、フローティングエレメントが完全に含まれているコンテナの末尾の直前にある最後のエレメントである必要があります */
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}

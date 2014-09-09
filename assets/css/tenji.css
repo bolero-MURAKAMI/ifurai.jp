@@ -1,0 +1,171 @@
+@charset "utf-8";
+
+
+
+/* content02 */
+#content02 {
+	float: left;
+	text-align: left;
+	background: url(../images/tenji/img_content.gif) 0 100% no-repeat;
+}
+
+/* sidebar02 */
+#sidebar02 {
+	background: url(../images/tenji/bg_sidebar.jpg) 0 0 no-repeat;
+	float: left;
+	width: 180px;
+	height: 400px;
+}
+#sidebar02 h2 {
+	height: 120px;
+}
+#sidebar02 ul {
+	float: left;
+	text-align: left;
+}
+#sidebar02 li {
+	width: 180px;
+	height: 40px;
+	line-height: 1.9;
+	font-size: 1px;
+}
+#sidebar02 a {
+	background: url(../images/tenji/bg_sidebar.jpg) left top no-repeat;
+	display: block;
+	width: 180px;
+	height: 40px;
+	text-decoration: none;
+}
+#sidebar02 em {
+	display: none;
+}
+
+/* content02_sub01 */
+#content02_sub01 {
+	padding-bottom: 0;
+}
+
+/* content02_sub02 */
+#content02_sub02 {
+	padding-bottom: 0;
+}
+
+/* content02_sub03 */
+#content02_sub03 {
+	padding-bottom: 0;
+}
+
+/* content02_sub04 */
+#content02_sub04 {
+	padding-bottom: 0;
+}
+
+/* content02_sub05 */
+#content02_sub05 {
+	padding-bottom: 0;
+}
+
+
+
+/* tenjiIndex */
+.tenjiIndex {
+	width: 740px;
+	height: 130px;
+	padding-left: 10px;
+	padding-top: 5px;
+}
+
+/* tenjiIndex01 */
+.tenjiIndex01 {
+	background: #FFFFFF url(../images/tenji/bg_tenji01.jpg) 0 0 no-repeat;
+	float: left;
+	width: 360px;
+	height: 120px;
+}
+.tenjiIndex01 ul {
+	float: left;
+	text-align: left;
+}
+.tenjiIndex01 li {
+	width: 360px;
+	height: 40px;
+	line-height: 1.9;
+	font-size: 1px;
+}
+.tenjiIndex01 a {
+	background: #CCCCCC url(../images/tenji/bg_tenji01.jpg) left top no-repeat;
+	display: block;
+	width: 360px;
+	height: 40px;
+	text-decoration: none;
+}
+.tenjiIndex01 em {
+	display: none;
+}
+
+/* tenjiIndex02 */
+.tenjiIndex02 {
+	background: #FFFFFF url(../images/tenji/bg_tenji02.jpg) 0 0 no-repeat;
+	float: left;
+	width: 360px;
+	height: 120px;
+}
+.tenjiIndex02 ul {
+	float: left;
+	text-align: left;
+}
+.tenjiIndex02 li {
+	width: 360px;
+	height: 40px;
+	line-height: 1.9;
+	font-size: 1px;
+}
+.tenjiIndex02 a {
+	background: #CCCCCC url(../images/tenji/bg_tenji02.jpg) left top no-repeat;
+	display: block;
+	width: 360px;
+	height: 40px;
+	text-decoration: none;
+}
+.tenjiIndex02 em {
+	display: none;
+}
+
+/* tenjiItem01 */
+.tenjiItem01 a {
+	height: 40px;
+	background-position: 0px 0px;
+}
+.tenjiItem01 a:hover {
+	height: 40px;
+	background-position: -360px 0px;
+}
+
+/* tenjiItem02 */
+.tenjiItem02 a {
+	height: 40px;
+	background-position: 0px -40px;
+}
+.tenjiItem02 a:hover {
+	height: 40px;
+	background-position: -360px -40px;
+}
+
+/* tenjiItem03 */
+.tenjiItem03 a {
+	height: 40px;
+	background-position: 0px -80px;
+}
+.tenjiItem03 a:hover {
+	height: 40px;
+	background-position: -360px -80px;
+}
+
+/* kikauktenData01 */
+.kikauktenData01 {
+	width: 450px;
+}
+/* kikauktenData02 */
+.kikauktenData02 {
+	width: 250px;
+}
