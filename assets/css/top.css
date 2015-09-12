@@ -65,7 +65,7 @@
 #topInfoInner a:hover {
 	color: #FF99CC;
 }
-#topInfoInner span {
+#topInfoInner .space {
 	line-height: 0.3;
 }
 
@@ -105,6 +105,6 @@
 #topNewsInner a:hover {
 	color: #FF99CC;
 }
-#topNewsInner span {
+#topNewsInner .space {
 	line-height: 0.4;
 }
