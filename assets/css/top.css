@@ -43,6 +43,7 @@
 	width: 410px;
 	height: 185px;
 	padding: 5px 5px 5px 5px;
+	text-shadow: -2px -2px 1px #000, 2px -2px 1px #000, -2px 2px 1px #000, 2px 2px 1px #000;
 }
 #topInfoInner h3 {
 	line-height: 1.4;
