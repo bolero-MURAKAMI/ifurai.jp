@@ -479,6 +479,54 @@ body {
 	text-align: center;
 }
 
+/* naviIndex */
+.naviIndex {
+	background: #eaedf7;
+	border-radius: 15px;
+	width: 740px;
+	height: 100px;
+	padding-left: 10px;
+	padding-top: 5px;
+}
+
+/* naviIndex01 */
+.naviIndex01 {
+	float: left;
+	width: 360px;
+}
+.naviIndex01 ul {
+	float: left;
+	text-align: left;
+}
+.naviIndex01 li {
+	width: 360px;
+	line-height: 1.9;
+	font-size: 1px;
+}
+.naviIndex01 a {
+	display: block;
+	text-decoration: none;
+}
+
+/* naviIndex02 */
+.naviIndex02 {
+	float: left;
+	width: 360px;
+}
+.naviIndex02 ul {
+	float: left;
+	text-align: left;
+}
+.naviIndex02 li {
+	width: 360px;
+	line-height: 1.9;
+	font-size: 1px;
+}
+.naviIndex02 a {
+	display: block;
+	text-decoration: none;
+}
+
 /* no-border */
 .no-border {
 	border: 0 !important;
