@@ -478,6 +478,9 @@ body {
 .imgCenter {
 	text-align: center;
 }
+.imgPadding {
+	padding: 5px 10px;
+}
 
 /* naviIndex */
 .naviIndex {
